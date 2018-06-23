@@ -1,0 +1,25 @@
+# spring web mvc
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  resources:
+    chain:
+      cache: false
+# H2 portal http://localhost:8080/h2-console
+  h2:
+    console:
+      enabled: true
+
+# H2 db setting
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+    name: test
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+   
