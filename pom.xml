@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.kevincylee.demo</groupId>
-	<artifactId>webmvc-jpa</artifactId>
+	<artifactId>spring-boot-webmvc-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>webmvc-jpa</name>
+	<name>spring-boot-webmvc-jpa</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

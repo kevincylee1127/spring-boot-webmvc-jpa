@@ -10,6 +10,14 @@ import org.springframework.web.servlet.ModelAndView;
 import com.kevincylee.demo.entity.User;
 import com.kevincylee.demo.service.UserService;
 
+/**
+ * ClassName: Controller
+ * 
+ * @author Chen Yuan Lee (Kevin)
+ * @version 1.0
+ * @createTime: 2018/07/15 20:42:52
+ */
+
 @RestController
 public class Controller {
 
